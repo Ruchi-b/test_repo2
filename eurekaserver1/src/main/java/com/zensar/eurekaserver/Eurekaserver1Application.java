@@ -15,6 +15,7 @@ public class Eurekaserver1Application {
 		SpringApplication.run(Eurekaserver1Application.class, args);
 		//this is a change
 		System.out.println("This is change");
+		System.out.println("This is change 2");
 	}
 
 }
