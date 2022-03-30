@@ -14,6 +14,7 @@ public class Eurekaserver1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Eurekaserver1Application.class, args);
 		//this is a change
+		System.out.println("This is change");
 	}
 
 }
