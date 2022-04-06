@@ -1,0 +1,21 @@
+management:
+ endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /login-monitor
+      
+      endpoint:
+        shutdown:
+          enabled:true
+      
+      info:
+       app:
+         name: Hello
+         description: Project
+         author.name: Ruchi Bhardwaj
+         
+          
+       
+server:
+  port: 9005
